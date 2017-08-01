@@ -1,0 +1,186 @@
+
+main{
+  background-color: #323232;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+.main{
+  margin: auto;
+  margin-top: 20px;
+  width: 75%;
+}
+
+#canvasDiv{
+  width: 100%;
+  height: 80vh;
+  cursor: crosshair;
+  background-color: #FFFFFF;
+  display: inline-block;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+canvas{
+  margin: 0;
+  padding: 0;
+}
+
+.tools{
+  width: 100%;
+  text-align: center;
+  display:inline-block;
+  margin-top: 10px;
+
+}
+
+
+#panel{
+  height: 100%;
+  margin: auto;
+}
+
+.panel{
+  height: 100%;
+}
+
+.panel-body{
+  height: 30vh;
+  overflow-y:auto;
+}
+
+.display{
+  display: inline-block;
+}
+
+
+#sizebutton, #onlinebutton{
+  width: 12vh;
+  height: 8vh;
+}
+
+
+
+.active-color-button{
+  width: 12vh;
+  height: 8vh;
+}
+
+
+
+#clearbtn{
+  display: inline-block;
+}
+
+
+/* Input Range Style */
+
+input[type=range] {
+  height: 12px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 80%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 80%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #50555C;
+  border-radius: 14px;
+  border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 12px;
+  width: 20px;
+  border-radius: 12px;
+  background: #529DE1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -1px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #50555C;
+}
+input[type=range]::-moz-range-track {
+  width: 80%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #50555C;
+  border-radius: 14px;
+  border: 0px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 12px;
+  width: 80%;
+  border-radius: 12px;
+  background: #529DE1;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  width: 80%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #50555C;
+  border-radius: 14px;
+  border: 0px solid #000000;
+}
+input[type=range]::-ms-fill-lower {
+  background: #50555C;
+  border: 0px solid #000000;
+  border-radius: 28px;
+  box-shadow: 1px 1px 1px #50555C;
+}
+input[type=range]::-ms-fill-upper {
+  background: #50555C;
+  border: 0px solid #000000;
+  border-radius: 28px;
+  box-shadow: 1px 1px 1px #50555C;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 12px;
+  width: 20px;
+  border-radius: 12px;
+  background: #529DE1;
+  cursor: pointer;
+  margin-top: -1px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #50555C;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #50555C;
+}
+
+.offline{
+  color: ghostwhite;
+  border: 1px solid ghostwhite;
+  text-align: center;
+}
+
+/* Input Range Style End */
+
