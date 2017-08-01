@@ -88,7 +88,7 @@ CREATE TABLE Users (
 
 
 ## Known Bugs
-* There is a bug that on mobile or tablets you cant select color, you have to spam the button.
+* There is a bug that on mobile or tablets that prevents you from picking a color, you have to spam the button.
 * If the server gets overloaded with data It can crash. See Disclaimer for recommended comminication ways.
 
 ## Contributing
