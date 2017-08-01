@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Disclaimer
 For this project I used AJAX system. You normally want to use Web Sockets or WebRTC API.
-If you want to scale this project to bigger audiance I highly recommend using a real-time communication API.
+If you want to scale this project to bigger audience I highly recommend using a real-time communication API.
 
 
 ### Prerequisites
