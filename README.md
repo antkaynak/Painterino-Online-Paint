@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## About This Project
 
 * You can draw to canvas and anybody in the room can see!
-* You can only delete what you draw.
+* You can only delete what you drew.
 * You can change the size as well as the color of your pen!
 * You can save the image to your local machine.
 * This application fully sports scaling and is responsive!
