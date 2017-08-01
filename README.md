@@ -13,6 +13,23 @@ A simple multi-user web paint application made with JavaEE7.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+## About This Project
+
+* You can draw to canvas and anybody in the room can see!
+* You can only delete what you draw.
+* You can change the size as well as the color of your pen!
+* You can save the image to your local machine.
+* This application fully sports scaling and is responsive!
+* You can see who is online in the room.
+* If you want you can go offline and draw by yourself!
+* Your session is tracked so you dont have to login every time.
+* Full support for mobile and tablets!
+
+### Disclaimer
+For this project I used AJAX system. You normally want to use Web Sockets or WebRTC API.
+If you want to scale this project to bigger audiance I highly recommend using a real-time communication API.
+
+
 ### Prerequisites
 
 What things you need to install
@@ -45,9 +62,6 @@ Use Tomcat 8 or above. If you are running in online server like Amazon Elastic B
 and make changes to Data Source.
 ```
 
-This project is made with JavaEE7. JSP-Servlet MVC model is used.
-This is a beginner project and made for learning purposes.
-You are free to copy or use codes in my project as long as you are making a referance to me.
 
 
 ## Built With
@@ -58,6 +72,10 @@ You are free to copy or use codes in my project as long as you are making a refe
 * [Connector/J](https://dev.mysql.com/downloads/connector/j/5.1.html) - Connecting to MySQL Database Server
 * [Jquery](https://jquery.com/) - AJAX Requests 
 
+
+## Known Bugs
+* There is a bug that on mobile or tablets you cant select color, you have to spam the button.
+* If the server gets overloaded with data It can crash. See Disclaimer for recommended comminication ways.
 
 ## Contributing
 
