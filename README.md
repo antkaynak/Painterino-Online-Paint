@@ -62,6 +62,20 @@ Use Tomcat 8 or above. If you are running in online server like Amazon Elastic B
 and make changes to Data Source.
 ```
 
+### Database 
+This is a simple application so it has a simple database. SQL Script is below.
+
+```
+CREATE TABLE Users (
+	UserID int NOT NULL AUTO_INCREMENT,
+    Username varchar(40) UNIQUE NOT NULL,
+    UserPassword varchar(40) NOT NULL,
+    UserEmail varchar(40) NOT NULL,
+    PRIMARY KEY(UserID),
+    CONSTRAINT users_unique UNIQUE (Username)
+);
+
+```
 
 
 ## Built With
