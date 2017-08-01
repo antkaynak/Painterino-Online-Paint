@@ -1,7 +1,13 @@
 # Painterino-Online-Paint
 
 
-One Paragraph of project description goes here
+A simple multi-user web paint application made with JavaEE7.
+
+![alt text](https://github.com/Exercon/Painterino-Online-Paint/blob/master/_screenshots/antweblogin.png)
+
+
+![alt text](https://github.com/Exercon/Painterino-Online-Paint/blob/master/_screenshots/antwebmain.png)
+
 
 ## Getting Started
 
@@ -9,81 +15,85 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install
 
 ```
-Give examples
+You need Tomcat server 8 or above installed.
+Locally installed MySQL or a MySQL server.
+Compatible IDE, Intellij IDEA recommended for this project.
+Web application 3.1 ( Configured web.xml is included )
+
+
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
+For MySQL Database 
 
 ```
-until finished
+You have to edit paintLogin.java Servlet to handle SQL communications if it is not compatible with your database.
+Also you need to configure context data source and fill the necessary blanks.
+If you want to use any database other than MySQL, you have to make necessary changes.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+For Tomcat Application Server
 
 ```
-Give an example
+Use Tomcat 8 or above. If you are running in online server like Amazon Elastic Beanstalk read the steps in paintLogin.java
+and make changes to Data Source.
 ```
 
-### And coding style tests
+This project is made with JavaEE7. JSP-Servlet MVC model is used.
+This is a beginner project and made for learning purposes.
+You are free to copy or use codes in my project as long as you are making a referance to me.
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [JSColor](http://jscolor.com/) - Color selecting
+* [GSON](https://github.com/google/gson) - JSON Object converting 
+* [Connector/J](https://dev.mysql.com/downloads/connector/j/5.1.html) - Connecting to MySQL Database Server
+* [Jquery](https://jquery.com/) - AJAX Requests 
+
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+If you want to contribute to this project you can e-mail me - antkaynak1@gmail.com
+or you can pull request.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+This project does not have versioning and made with learning purposes.
 
-## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+## Authors 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Ant Kaynak** - *Initial work* - [Exercon](https://github.com/Exercon)
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+JSColor has different license. [JSLicense](http://www.gnu.org/licenses/gpl-3.0.txt) - for details
+visit their page [JSColor](http://jscolor.com/)
+
+GSON has different license. [License](http://www.apache.org/licenses/LICENSE-2.0) - for details 
+visit their page [GSON](https://github.com/google/gson)
+
+Connector/J [License](https://downloads.mysql.com/docs/licenses/connector-j-5.1-gpl-en.pdf) - for details
+visit their page [MySQL](https://dev.mysql.com/downloads/connector/j/5.1.html)
+
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* A huge thanks to BalusC for his [post](https://stackoverflow.com/questions/3679465/find-number-of-active-sessions-created-from-a-given-client-ip/3679783#3679783)
+* Another huge thanks to [GSON](https://github.com/google/gson)
+* Readme template by [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* Login screen [Aigars Silkalns](https://codepen.io/colorlib/)
+
+# Questions
+If you have any questions mail me -  antkaynak1@gmail.com
 
