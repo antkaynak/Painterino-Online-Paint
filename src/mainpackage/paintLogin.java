@@ -66,7 +66,8 @@ public class paintLogin extends HttpServlet {
 
 
         } catch (SQLException e) {
-            e.printStackTrace();
+           request.setAttribute("error","An error occurred. Please try again! ");
+           request.getRequestDispatcher("login.jsp").forward(request,response);
         }
 
 
@@ -101,7 +102,8 @@ public class paintLogin extends HttpServlet {
 
 
         } catch (SQLException e) {
-            e.printStackTrace();
+           request.setAttribute("error","An error occurred. Please try again! ");
+           request.getRequestDispatcher("login.jsp").forward(request,response);
         }
     }
 }
