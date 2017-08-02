@@ -8,6 +8,8 @@ A simple multi-user web paint application made with JavaEE7.
 
 ![alt text](https://github.com/Exercon/Painterino-Online-Paint/blob/master/_screenshots/antwebmain.png)
 
+![alt text](https://github.com/Exercon/Painterino-Online-Paint/blob/master/_screenshots/antwebpaint2.png)
+
 
 ## Getting Started
 
