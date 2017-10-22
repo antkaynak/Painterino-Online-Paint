@@ -87,6 +87,7 @@ CREATE TABLE Users (
 * [GSON](https://github.com/google/gson) - JSON Object converting 
 * [Connector/J](https://dev.mysql.com/downloads/connector/j/5.1.html) - Connecting to MySQL Database Server
 * [Jquery](https://jquery.com/) - AJAX Requests 
+* [Bootstrap](http://getbootstrap.com) - UI Components
 
 
 ## Known Bugs
@@ -120,6 +121,9 @@ visit their page [GSON](https://github.com/google/gson)
 
 Connector/J [License](https://downloads.mysql.com/docs/licenses/connector-j-5.1-gpl-en.pdf) - for details
 visit their page [MySQL](https://dev.mysql.com/downloads/connector/j/5.1.html)
+
+Bootstrap [License](https://v4-alpha.getbootstrap.com/about/license/)
+
 
 
 ## Acknowledgments
