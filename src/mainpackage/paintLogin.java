@@ -29,7 +29,7 @@ public class paintLogin extends HttpServlet {
 
     factory="org.apache.commons.dbcp.BasicDataSourceFactory"
 
-    e.g While I was using elasticbeanstalk I needed to override It's dbcp factory.
+    e.g While I was using elasticbeanstalk I needed to override Its dbcp factory.
     And I used the code above. But while I was testing local, I had to remove it.
 
      */
