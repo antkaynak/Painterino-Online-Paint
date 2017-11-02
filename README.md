@@ -79,6 +79,20 @@ CREATE TABLE Users (
 
 ```
 
+Alternatively, with the correct naming conventions.
+
+```
+CREATE TABLE users (
+	user_id int(11) NOT NULL AUTO_INCREMENT,
+    username varchar(40) UNIQUE NOT NULL,
+    password varchar(40) NOT NULL,
+    email varchar(40) NOT NULL,
+    PRIMARY KEY(user_id),
+    CONSTRAINT users_unique UNIQUE (username)
+);
+
+```
+
 
 ## Built With
 
