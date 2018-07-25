@@ -1,4 +1,5 @@
 # Painterino-Online-Paint
+# Make sure to check out the new version ! [Painterino v2](https://github.com/antkaynak/Painterino-v2)
 
 
 A simple multi-user web paint application made with JavaEE7.
